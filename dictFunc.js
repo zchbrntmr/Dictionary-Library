@@ -1,3 +1,14 @@
+/*
+
+  Copyright (C) 2013 Zach Brantmeier
+  
+*/
+
+/*
+
+  The functions below can be used as conditionals to check/compare strings, for instance, to check if a word is a name or not in order to determine the correct response
+
+*/
 function isNoun(checkFor){
   checkFor.toLowerCase();
   var nouns=["apple","banana","car","cat","dog","elephant","pencil","ruler","xylophone","yacht","zebra","zygote"];
