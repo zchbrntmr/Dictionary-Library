@@ -1,4 +1,6 @@
-Dictionary-Library
+Dictionary Libraries
 ==================
+This repository contains a dictionary library (all in english, although written with support for multiple languages.
 
-Very useful library that adds dictionary type functions.
+Current features:
+* isAdjective(), isName(), isNoun() functions to check for certain strings
