@@ -6,7 +6,8 @@
 
 /*
 
-  The functions below can be used as conditionals to check/compare strings, for instance, to check if a word is a name or not in order to determine the correct response
+  The functions below can be used as conditionals to check/compare strings
+  For instance, to check if a word is a name or not in order to determine the correct response
 
 */
 function isNoun(checkFor){
@@ -33,7 +34,7 @@ function isAdjective(checkFor){
 }
 function isName(checkFor){
   checkFor.toLowerCase();
-  var names=["alex","andrew","amy","bill","justin","lily","marcus","mark","matt","matthew","steve","steven","will","william","zach","zachary"];
+  var names=["alex","andrew","amy","bill","jack","jake","justin","lily","marcus","mark","matt","matthew","steve","steven","will","william","zach","zachary"];
   for(var i=-1;i<=names.length;i++){
     if(names[i]==checkFor){
       return true;
