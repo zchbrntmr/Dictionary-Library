@@ -22,7 +22,7 @@ function isNoun(checkFor){
 }
 function isAdjective(checkFor){
   checkFor.toLowerCase();
-  var adjectives=["creative","funny","intelligent","interesting","smart"];
+  var adjectives=["angry","bad","creative","deceptive","funny","helpful","intelligent","interesting","mean","peaceful","smart","yellow"];
   for(var i=-1;i<=adjectives.length;i++){
     if(adjectives[i]==checkFor){
       return true;
