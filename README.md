@@ -4,3 +4,8 @@ This repository contains a dictionary library (all in english, although written 
 
 Current features:
 * isAdjective(), isName(), isNoun() functions to check for certain strings
+
+Ported versions:
+* Javascript (Assumed complete, untested)
+* Java (Assumed complete, untested)
+* C++ (Not complete, untested)
