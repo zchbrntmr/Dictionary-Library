@@ -11,10 +11,9 @@
 
 */
 function isNoun(checkFor){
-  checkFor.toLowerCase();
   var nouns=["apple","banana","car","cat","dog","elephant","pencil","ruler","xylophone","yacht","zebra","zygote"];
   for(var i=-1;i<=nouns.length;i++){
-    if(nouns[i]==checkFor){
+    if(nouns[i]==checkFor.toLowerCase()){
       return true;
     }else{
       return false;
@@ -22,10 +21,9 @@ function isNoun(checkFor){
   }
 }
 function isAdjective(checkFor){
-  checkFor.toLowerCase();
   var adjectives=["angry","bad","creative","deceptive","funny","helpful","intelligent","interesting","mean","peaceful","smart","yellow"];
   for(var i=-1;i<=adjectives.length;i++){
-    if(adjectives[i]==checkFor){
+    if(adjectives[i]==checkFor.toLowerCase()){
       return true;
     }else{
       return false;
@@ -33,10 +31,9 @@ function isAdjective(checkFor){
   }
 }
 function isName(checkFor){
-  checkFor.toLowerCase();
   var names=["alex","andrew","amy","bill","jack","jake","justin","lily","marcus","mark","matt","matthew","steve","steven","will","william","zach","zachary"];
   for(var i=-1;i<=names.length;i++){
-    if(names[i]==checkFor){
+    if(names[i]==checkFor.toLowerCase()){
       return true;
     }else{
       return false;
