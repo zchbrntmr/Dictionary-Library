@@ -34,7 +34,7 @@ function isAdjective(checkFor){
 function isName(checkFor){
   checkFor.toLowerCase();
   var names=["alex","andrew","amy","bill","justin","lily","marcus","mark","matt","matthew","steve","steven","will","william","zach","zachary"];
-  for(var i=0;i<=names.length;i++){
+  for(var i=-1;i<=names.length;i++){
     if(names[i]==checkFor){
       return true;
     }else{
