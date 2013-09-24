@@ -6,6 +6,6 @@ Current features:
 * isAdjective(), isName(), isNoun() functions to check for certain strings
 
 Ported versions:
-* Javascript (Assumed complete, untested)
-* Java (Assumed complete, untested)
-* C++ (Not complete, untested)
+* Javascript (Working; Tested)
+* Java (Assumed Working; untested)
+* C++ (Not complete; untested)
