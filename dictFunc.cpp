@@ -1,8 +1,3 @@
-/*
-
-  Copyright (C) 2013 Zach Brantmeier
-  
-*/
 //#include <stdio.h>
 //#include <iostream>
 #include <string>
@@ -29,4 +24,3 @@ bool isNoun(string checkFor){
   strcpy(nouns[2],"pencil");
   return 0;
 }
-
