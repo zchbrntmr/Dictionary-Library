@@ -5,8 +5,10 @@ This repository contains a dictionary library (in English) that can be used to g
 This reposity will be greatly reworked shortly.
 
 Current features:
+
 JavaScript:
 * String.isAdjective(), String.isName(), String.isNoun()
+
 Java:
 * isAdjective(), isName(), isNoun()
 
