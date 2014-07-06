@@ -1,9 +1,14 @@
-Dictionary Libraries
+Dictionary Library
 ==================
-This repository contains a dictionary library (all in english, although written with support for multiple languages.
+This repository contains a dictionary library (in English) that can be used to get information about words, for use in things like sentence recognition.
+
+This reposity will be greatly reworked shortly.
 
 Current features:
-* isAdjective(), isName(), isNoun() functions to check for certain strings
+JavaScript:
+* String.isAdjective(), String.isName(), String.isNoun()
+Java:
+* isAdjective(), isName(), isNoun()
 
 Ported versions:
 * Javascript (Working; Tested)
